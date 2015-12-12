@@ -1,0 +1,213 @@
+%% start of file `template_en.tex'.
+%% Copyright 2007 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[11.5pt,a4paper]{moderncv}
+
+% moderncv themes
+%\moderncvtheme[blue]{casual}                 % optional argument are 'blue' (default), 'orange', 'red', 'green', 'grey' and 'roman' (for roman fonts, instead of sans serif fonts)
+%\moderncvtheme[blue]{casual}                % idem
+\moderncvtheme[green]{classic}
+% character encoding
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+
+\usepackage[utf8]{inputenc}                   % replace by the encoding you are using
+%\usepackage{hyperref}
+
+\AtBeginDocument{\hypersetup{pdfborder = 0 0 1,linkcolor=blue}}
+% adjust the page margins
+\usepackage[scale=0.85]{geometry}
+%\usepackage{multibib}
+\recomputelengths    % required when changes are made to page layout lengths
+%\newcites{conf}{Conference}
+% personal data
+\firstname{Naveen}
+\familyname{Kuppuswamy}
+\title{Curriculum Vitae}               % optional, remove the line if not wanted
+\extrainfo{Postdoc, iCub Facility, \\Istituto Italiano di Tecnologia} % optional, remove the line if not wanted
+%\address{\hspace{-1in}Corso Paganini 33}{Genova, 16125}    % optional, remove the line if not wanted
+\mobile{mobile (+39)3914659316}                    % optional, remove the line if not wanted
+% \phone{(312) 413-8265}                      % optional, remove the line if not wanted
+% \fax{312 996 1491}                          % optional, remove the line if not wanted
+\email{naveen.kuppuswamy@iit.it}                      % optional, remove the line if not wanted
+\homepage{naveenoid.wordpress.com}
+%\homepage{\href{http://www.ifi.uzh.ch/ailab/group/pfeifergroup/naveenkuppuswamy.html}{link}}
+
+\photo[60pt]{naveen_dwengo}                         % '64pt' is the height the picture must be resized to and 'picture' is the name of the picture file; optional, remove the line if not wanted
+%\quote{"No man should escape our universities without knowing how little he knows." -- J. Robert Oppenheimer}                 % optional, remove the line if not wanted
+\quote{Research Interests : State estimation, robot locomotion, bio-inspired control, and model/control order reduction}  
+%\nopagenumbers{}                             % uncomment to suppress automatic page numbering for CVs longer than one page
+% 
+% \usepackage[nonewsec]{splitbib}
+% 
+% \makeatother
+% \SBtitlestyle{simple}
+% 
+% \begin{category}[J]{Journals and Book Chapters}
+% \SBentries{Kim2008,Kuppuswamy2013b,Kuppuswamy2013c,Kuppuswamy2013d,Kuppuswamy2013e,Kuppuswamy2013f,Marques2013}
+% \end{category}
+% 
+% \begin{category}[C]{Conferences}
+% \SBentries{Kim2007,Kuppuswamy2013a,Kuppuswamy2012a,Marques2012a,Nakajima2011,Stonier2007,Yoo2006}
+% \end{category}
+% 
+% \begin{category}[P]{Posters}
+% \SBentries{Kuppuswamy2011a,Kuppuswamy2011b}
+% \end{category}
+
+\usepackage{multibib}
+\newcites{journals}{Journals and Book Chapters}
+\newcites{conferences}{Conferences}
+\newcites{posters}{Workshops and Posters}
+
+
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+%  \nocitejournals{Kim2008,Kuppuswamy2014a}
+%  \nociteconferences{Kim2007,Kuppuswamy2014b,Kuppuswamy2012a,Kuppuswamy2013a,Marques2012a,Nakajima2011,Stonier2007,Yoo2006,Eljaik2015a,Nori2015,Kuppuswamy2006,Kuppuswamy2006b, Nakajima2011b,Shin2008,Carbajal2010}
+%  \nociteposters{Kuppuswamy2011a,Kuppuswamy2011b,Eljaik2015b,Latella2015,Latella2015b,Kuppuswamy2015,Nakajima2011c,Kuppuswamy2012b}
+ \nocitejournals{Kuppuswamy2014a,Kim2008}
+ \nociteconferences{Romano2015a,Eljaik2015a,Nori2015,Kuppuswamy2014b,Kuppuswamy2013a,Kuppuswamy2012a,Marques2012a,Nakajima2011,Nakajima2011b,Carbajal2010,Shin2008,Kim2007,Stonier2007,Yoo2006,Kuppuswamy2006,Kuppuswamy2006b}
+ \nociteposters{Kuppuswamy2011a,Kuppuswamy2011b,Eljaik2015b,Latella2015,Latella2015b,Kuppuswamy2015,Nakajima2011c,Kuppuswamy2012b,Traversaro2015a}
+
+\maketitle
+%Research Interests : reduced dimensional motor control, developmental robotics, biorobotics
+
+\section{Education}
+\cventry{2009-2014}{PhD in Artificial Intelligence}{Dept. of Informatics}{University of Z\"{u}rich}{Switzerland}{\small
+\textbf{Thesis } : \emph{Exploiting reduced dimensionality in the design and control of embodied systems}\\
+\textbf{Supervisor} : Prof. Dr. Rolf Pfeifer\\
+\textbf{Marie Curie Fellow}
+}
+\cventry{2005--2007}{MS in Electrical Engineering and Computer Science}{Korea Advanced Institute of Science and Technology (KAIST)}{Daejeon, South Korea}{}{\small 
+\textbf{Thesis} : \emph{Nonlinear inverse dynamic control of an omnidirectional mobile robot using slip rolling modes}\\
+\textbf{Supervisor} : Prof. Dr. Jong-Hwan Kim\\
+\textbf{Korean Research Foundation (KRF) Scholar}
+}
+\cventry{2001-2005}{BE in Instrumentation and Control Engineering}{SRM Engineering College, Anna University}{Chennai, India}{}{}  % arguments 
+\section{Experience}
+\subsection{Academia}
+% \cventry{2014--now}{EU Projects KOROIBOT(IP), CoDyCo(IP)}{RBCS}{IIT}{Italy}{\small Working on state estimation and lasrge-scale sensor fusion for dynamic walking on humanoids.}
+% \cventry{2009--2013}{EU Projects OCTOPUS(IP), ROBOTDoC(ITN), AMARSi(IP)}{AI Lab}{UZH}{Switzerland}{\small Worked on reduced dimensional control, learning of motor primitives (AMARSi and ROBOTDoC), continuum robot control and low-level control hardware development (OCTOPUS). The research for project ROBOTDoC was partially carried out at the Centre for Robotics and Neural Systems, Plymouth University, UK.}
+% \cventry{2005--2007}{Information Technology Research Center (ITRC) Funded Projects}{Robot Intelligence Technology Lab}{KAIST}{Daejeon, South Korea}{\small Worked on the development and control of an omnidirectional football robot; on movement planning and control of bipedal robots; and on ubiquitous robots and cognitive control architectures with episodic memory.}
+\cventry{2014--now}{Postdoctoral Fellow}{Dynamic Interaction Control Lab, iCub Facility}{IIT}{Italy}{\small Whole-body state estimation and large-scale sensor fusion for articulated rigid bodies (EU Projects \emph{KOROIBOT}, and \emph{CoDyCo}).}
+\cventry{2009--2014}{Doctoral Student}{Artificial Intelligence (A.I) Lab}{UZH}{Z\"{u}rich,Switzerland}{\small Reduced dimensional control, learning of motor primitives (EU Projects \emph{AMARSi} and \emph{ROBOTDoC}), continuum robot control and embedded control hardware development (EU Project \emph{OCTOPUS}).}
+\cventry{2012}{Visiting Researcher}{Center for Robotics and Neural Systems (CRNS)}{Plymouth University}{Plymouth, UK}{\small Muscle synergies, motor control and reduced dimensionality (ROBOTDoC).}
+\cventry{2005--2007}{Research Assistant}{Robot Intelligence Technology (RIT) Lab}{KAIST}{Daejeon, South Korea}{\small Development and control of an omnidirectional football robot; on movement planning and control of bipedal robots; and on ubiquitous robots and cognitive control architectures with episodic memory.}
+% ----------------------------
+
+\subsection{Industry}
+\cventry{2007--2008}{Engineer R\&D}{Yujin Robot Co. Ltd.}{Seoul}{South Korea}{Service robot middleware and computer vision for human robot interaction.}                % arguments 3 to 6 are optional
+
+\subsection{Non-Profit}
+\cventry{2013--now}{Engagement Manager}{Dwengo pzw}{Ghent}{Belgium}{Non-profit taking robotics and micro-controller programming to under-privileged children. Coordinated the project in Chennai, India. Non-profit was a \textbf{Google RiSE 2014} grant award winner.
+}
+
+\section{Academic Experience}
+\subsection{Publications}
+\cvlistitem{\small Coauthored $3$ journal papers ($1$ published and $2$ to be submitted shortly), $1$ book chapter, $15$ conference papers, and $8$ workshops/posters.}% Full published list available at \href{http://scholar.google.ch/citations?user=Ec3-TsUAAAAJ}{Google Scholar}}.
+\subsection{Teaching Assistance and Student Supervision}
+\cvlistitem{\small Supervised $2$ bachelor's and  $2$ master's theses, and $5$ semester projects.}
+%Tripti, Matt, Philip, Umar, Vivienne, Sant, Aditya, Mirium 
+%\subsection{Teaching Assistance}
+% \cvlistitem{\small Introduction to AI (ShanghAI lectures), Fall 2010, Fall 2011}
+% \cvlistitem{\small Formal Methods in Computer Science II, Fall 2009, Fall 2012 }
+% \cvlistitem{\small Bio-Inspired Robotics, Spring 2009}
+\cvlistitem{\small Introduction to AI (Fall 2010, Fall 2011), Formal Methods in Computer Science II (Fall 2009, Fall 2012), Bio-Inspired Robotics (Spring 2009).}
+\subsection{Summer Schools / Technical Training}
+%\cvlistitem{\small EMBODYi Projects Summer School on Embodied Intelligence, Livorno, Italy (September 2010).}
+\cvlistitem{\small Veni Vidi Vici (iCub summer school), Sestri Levante, Italy (August 2011).}
+\cvlistitem{\small Summer School on Impedance Control, Fraueninsel Chiemsee, Germany (July 2011).}
+\cvlistitem{\small Multiple training activities in the RobotDoc network (September 2009 - August 2013)}
+
+%\vspace{.4in}
+\section{Technical Skills} 
+\cvline{Languages}{\small C, C++, Python,MATLAB Script, \LaTeX, HTML}%{ }{ }%{Software Platforms}{MATLAB, SolidMaple, }
+\cvline{Embedded}{\small Atmel AVR Series, Arduino, Raspberry Pi}%{ }{ }%{Software Platforms}{MATLAB, SolidMaple, }
+\cvline{OS}{\small Linux (multiple distros/system administration), Windows XP}%{ }{ } 
+\cvline{Software}{\small Solidworks, Inkscape, Gimp, GNU Octave, Matlab, Eclipse, KiCad}
+\cvline{Other}{\small Vicon, xsens MVN}%{ }{ } 
+
+\section{Achievements and Activities} 
+% \cvlistitem{\small \textbf{Engagement Manager} at Dwengo pzw, a non-profit focusing on taking robotics and micro-controllers to underprivileged children. }
+\cvlistitem{\small \textbf{Chairman} at the \emph{Science Cafè} at the \emph{Robots on Tour} event, Cafè Sphères, Z\"{u}rich, on $8^{th}$ March, 2013. }
+\cvlistitem{\small \textbf{Publicity Chair} at the \emph{Postgraduate Conference on Robotics and Development of Cognition (ROBOTDoC-PhD)}, a satellite event of the International Conference on Artificial Neural Networks (ICANN 2012), at the University of Lausanne, Switzerland, on $10-12^{th}$ September 2012.}
+\cvlistitem{\small \textbf{Coordinator} of the Brown bag lecture series conducted at the AI Lab and at ETH Zurich from 2009 until present.}
+\cvlistitem{\small Recipient of the \textbf{Best Documentation Award} at the \emph{$13^{th}$ International Micro-robot Maze Contest}, held in Nagoya, Japan in October 2004.}
+
+
+
+\section{Personal}
+\cvline{Birthplace}{\small Chennai, India.}
+\cvline{Birth date}{\small $19^{th}$ October, 1983.}
+\cvline{Languages}{\small Tamil (Mother tongue), English (Fluent), Hindi (Expert), Korean (Intermediate), German (Intermediate), Italian (Intermediate).}
+\cvline{Hobbies}{\small Comic and Graphic Art, Cooking, Music (Guitar/Vocals), Hobby Electronics.}
+
+
+\section{References}
+% 
+% \begin{enumerate}
+\cventry{1}{Giorgio Metta}{Director}{iCub Facility}{Istiuto Italiano di Tecnologia (IIT), Genova, Italy}{Email : \href{mailto:giorgio.metta@iit.it}{giorgio.metta@iit.it}}
+\cventry{2}{Francesco Nori}{Team Leader}{Dynamic Interaction Control Lab, iCub Facility}{Istiuto Italiano di Tecnologia (IIT), Genova, Italy}{Email : \href{mailto:francensco.nori@iit.it}{francensco.nori@iit.it}}
+\cventry{3}{Rolf Pfeifer}{Retd. Professor of Computer Science}{Institute for Informatics}{University of Z\"{u}rich, Switzerland}{Email : \href{mailto:pfeifer@ifi.uzh.ch}{pfeifer@ifi.uzh.ch}}
+% 
+% \item 
+% \textbf{Dr. Francesco Nori}{\small\\Team Leader, Cognitive Humanoids Lab,\\ Department of Robotics, Brain and Cognitive Sciences (RBCS), \\Istituto Italiano di Tecnologia, Genova.\\ Email : \href{mailto:francesco.nori@iit.it}{francesco.nori@iit.it}}
+% \item 
+% \textbf{Prof. Giulio Sandini}{\small\\Director,\\ Department of Robotics, Brain and Cognitive Sciences (RBCS), \\Istituto Italiano di Tecnologia, Genova.\\ Email : \href{mailto:giulio.sandini@iit.it}{giulio.sandini@iit.it}}
+% \item 
+% % \textbf{Prof. Dr. Chris  Harris}{\small \\ Professor of Neuroscience, Centre for Robotics and Neural Systems (CRNS)\\Plymouth University, United Kingdom.\\ Email : \href{mailto:chris.harris@plymouth.ac.uk}{chris.harris@plymouth.ac.uk}}
+% \textbf{Prof. Dr. Rolf Pfeifer}{\small \\ Retired Professor of Computer Science, Institute for Informatics (IFI)\\University of Z\"{u}rich, Switzerland.\\ Email : \href{mailto:rolf.pfeifer@ifi.uzh.ch}{rolf.pfeifer@ifi.uzh.ch}}
+% % \end{minipage}
+% \end{enumerate}
+
+\closesection{}                   % needed to renewcommands
+\renewcommand{\listitemsymbol}{-} % change the symbol for lists
+
+\nocite{*}
+
+%\nocite{Kuppuswamy2012a}
+
+%\nocite{Kuppuswamy2013a}
+\renewcommand{\refname}{Publications}
+\section*{Publications}
+%\bibliographystyle{abbrv}
+%\bibliography{naveenPubs}   % 'publications' is the name of a BibTeX file
+
+%\bibliographystyle{abbrv}
+%\bibliography{naveenPubs} 
+
+%\def\NMSB@dash
+
+%\SBtitlestyle{dash}
+% \SBsubtitlestyle{none}
+
+%\usepackage{splitbib}
+
+
+%\cite{article-minimal,article-full,book-minimal,book-full}
+% \bibliographystyle{abbrv}
+% \bibliography{naveenPubs}
+% % \bibliography{naveenPubs}
+
+
+% \section{Publications}
+\bibliographystyle{plainyrrev}
+\bibliographystylejournals{plainyrrev}
+\bibliographyjournals{naveenPubs} 
+\bibliographystyleconferences{plainyrrev}
+\bibliographyconferences{naveenPubs}
+\bibliographystyleposters{plainyrrev}
+\bibliographyposters{naveenPubs} 
+
+\end{document}
+
+
+%% end of file `template_en.tex'.
