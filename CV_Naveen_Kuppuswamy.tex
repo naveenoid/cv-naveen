@@ -22,6 +22,7 @@
 \AtBeginDocument{\hypersetup{pdfborder = 0 0 1,linkcolor=blue}}
 % adjust the page margins
 \usepackage[scale=0.855]{geometry}
+\setlength{\hintscolumnwidth}{1.9cm}
 %\usepackage{multibib}
 \recomputelengths    % required when changes are made to page layout lengths
 %\newcites{conf}{Conference}
@@ -75,8 +76,8 @@
 %  \nociteconferences{Kim2007,Kuppuswamy2014b,Kuppuswamy2012a,Kuppuswamy2013a,Marques2012a,Nakajima2011,Stonier2007,Yoo2006,Eljaik2015a,Nori2015,Kuppuswamy2006,Kuppuswamy2006b, Nakajima2011b,Shin2008,Carbajal2010}
 %  \nociteposters{Kuppuswamy2011a,Kuppuswamy2011b,Eljaik2015b,Latella2015,Latella2015b,Kuppuswamy2015,Nakajima2011c,Kuppuswamy2012b}
  \nocitejournals{Kuppuswamy2014a,Kim2008}
- \nociteconferences{Romano2015a,Eljaik2015a,Nori2015,Kuppuswamy2014b,Kuppuswamy2013a,Kuppuswamy2012a,Marques2012a,Nakajima2011,Nakajima2011b,Carbajal2010,Shin2008,Kim2007,Stonier2007,Yoo2006,Kuppuswamy2006,Kuppuswamy2006b}
- \nociteunderprep{Kuppuswamy2016a}%, Kuppuswamy2016b}
+ \nociteconferences{Latella2015c,Eljaik2015a,Nori2015,Kuppuswamy2014b,Kuppuswamy2013a,Kuppuswamy2012a,Marques2012a,Nakajima2011,Nakajima2011b,Carbajal2010,Shin2008,Kim2007,Stonier2007,Yoo2006,Kuppuswamy2006,Kuppuswamy2006b}
+ \nociteunderprep{Kuppuswamy2016a, Romano2016a}%, Kuppuswamy2016b}
  \nociteposters{Kuppuswamy2011a,Kuppuswamy2011b,Eljaik2015b,Latella2015,Latella2015b,Kuppuswamy2015,Kuppuswamy2012b,Traversaro2015a}
 %\nociteposters{Kuppuswamy2011a,Kuppuswamy2011b,Eljaik2015b,Latella2015,Latella2015b,Kuppuswamy2015,Nakajima2011c,Kuppuswamy2012b,Traversaro2015a}
 
@@ -101,7 +102,7 @@
 % \cventry{2014--now}{EU Projects KOROIBOT(IP), CoDyCo(IP)}{RBCS}{IIT}{Italy}{\small Working on state estimation and lasrge-scale sensor fusion for dynamic walking on humanoids.}
 % \cventry{2009--2013}{EU Projects OCTOPUS(IP), ROBOTDoC(ITN), AMARSi(IP)}{AI Lab}{UZH}{Switzerland}{\small Worked on reduced dimensional control, learning of motor primitives (AMARSi and ROBOTDoC), continuum robot control and low-level control hardware development (OCTOPUS). The research for project ROBOTDoC was partially carried out at the Centre for Robotics and Neural Systems, Plymouth University, UK.}
 % \cventry{2005--2007}{Information Technology Research Center (ITRC) Funded Projects}{Robot Intelligence Technology Lab}{KAIST}{Daejeon, South Korea}{\small Worked on the development and control of an omnidirectional football robot; on movement planning and control of bipedal robots; and on ubiquitous robots and cognitive control architectures with episodic memory.}
-\cventry{2014--now}{Postdoctoral Fellow}{Dynamic Interaction Control Lab, iCub Facility}{IIT}{Italy}{\small Whole-body state estimation and large-scale sensor fusion for articulated rigid bodies (humanoid robots); human dynamics estimation using motion capture and wearable systems (EU Projects \emph{KOROIBOT}, and \emph{CoDyCo}). Recipient of the Swiss \textbf{NCCR-Robotics Postdoc Exchange Fellowship} for 2016 (to be carried out at the Biorobotics Lab, EPFL, Lausanne). }
+\cventry{2014--now}{Postdoctoral Fellow}{Dynamic Interaction Control Lab, iCub Facility}{IIT}{Italy}{\small Whole-body state estimation and large-scale sensor fusion for articulated rigid bodies (humanoid robots); human dynamics estimation using motion capture and wearable systems (EU Projects \emph{KOROIBOT}, and \emph{CoDyCo}).}% Recipient of the Swiss \textbf{NCCR-Robotics Postdoc Exchange Fellowship} for 2016 (to be carried out at the Biorobotics Lab, EPFL, Lausanne). }
 \cventry{2009--2014}{Doctoral Student}{Artificial Intelligence (A.I) Lab}{UZH}{Z\"{u}rich,Switzerland}{\small Reduced dimensional control, learning of motor primitives (EU Projects \emph{AMARSi} and \emph{ROBOTDoC}), continuum robot control and embedded control hardware development (EU Project \emph{OCTOPUS}).}
 \cventry{2012}{Visiting Researcher}{Center for Robotics and Neural Systems (CRNS)}{Plymouth University}{Plymouth, UK}{\small Muscle synergies, motor control and reduced dimensionality (ROBOTDoC).}
 \cventry{2005--2007}{Research Assistant}{Robot Intelligence Technology (RIT) Lab}{KAIST}{Daejeon, South Korea}{\small Development and control of an omnidirectional football robot; movement planning and control of bipedal robots; ubiquitous robots and cognitive control architectures with episodic memory.}
@@ -156,10 +157,14 @@
 \cvlistitem{\small \textbf{Chairman} at the \emph{Science Cafè} at the \emph{Robots on Tour} event, Cafè Sphères, Z\"{u}rich, on $8^{th}$ March, 2013. }
 \cvlistitem{\small \textbf{Coordinator} of the brown bag lecture series conducted at the AI Lab and at ETH Zurich from 2009 until 2014.}
 \cvlistitem{\small \textbf{Publicity Chair} at the \emph{Postgraduate Conference on Robotics and Development of Cognition (ROBOTDoC-PhD)}, a satellite event of the International Conference on Artificial Neural Networks (ICANN 2012), at the University of Lausanne, Switzerland, on $10-12^{th}$ September 2012.}
-\cvlistitem{\small Recipient of the \textbf{Best Documentation Award} at the \emph{$13^{th}$ International Micro-robot Maze Contest}, held in Nagoya, Japan in October 2004.}
 \vfill
-\subsection{Open Source Contributions} 
-\cvlistitem{\small Contributed to several open source projects such as yarp, iCub, iDynTree, wholeBodyInterface etc. (complete list of recent contributions available at \href{https://github.com/naveenoid}{github}).}
+\subsection{Awards} 
+\cvlistitem{\small \textbf{Best Paper Award}, \emph{$2^{nd}$ International Electronic Conference on Sensors and Applications}, December 2015 (For the paper Latella et al, 2015).}
+
+\cvlistitem{\small \textbf{Best Documentation Award}, \emph{$13^{th}$ International Micro-robot Maze Contest}, held in Nagoya, Japan in October 2004.}
+% \vfill
+% \subsection{Open Source Contributions} 
+% \cvlistitem{\small Contributed to several open source projects such as yarp, iCub, iDynTree, wholeBodyInterface etc. (complete list of recent contributions available at \href{https://github.com/naveenoid}{github}).}
 
 
 
@@ -197,6 +202,7 @@
 \newpage
 
 \section*{Outreach and Public Media}
+\cvlistitem{\small Multiple interviews in South Indian regional newspapers regarding \emph{Dwengo} project activities.}
 \cvlistitem{\small Rai TV, interview by the Italian language TV channel on the robotics research conducted at IIT; featured a brief personal interview, February 2015.} 
 \cvlistitem{\small Cronaca Livorno, interview by the Italian language newspaper on AI Lab and my participation in the Octopus Project and the FET EMBODYi Summer School, September 2010.}
 \cvlistitem{\small Wired Magazine, \emph{Seoul of a new machine}; an article on the research of the RIT group, KAIST and me on the ubiquitous robot project,  December 2006.}
@@ -209,7 +215,7 @@
 \cvline{OS}{\small Linux (multiple distros/system administration), Windows XP}%{ }{ } 
 \cvline{Software}{\small Solidworks, Inkscape, Gimp, GNU Octave, Matlab, Eclipse, KiCad.}
 \cvline{Other}{Yarp, Gazebo, \small Motion capture systems : Vicon, xsens MVN.}%{ }{ } 
-
+\cvline{FOSS}{\small Active Contributor to several open source projects such as yarp, iCub, iDynTree, wholeBodyInterface etc. (complete list of recent contributions available at \href{https://github.com/naveenoid}{github}). }
 
 
 \section{Personal}
